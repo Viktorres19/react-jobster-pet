@@ -5,7 +5,8 @@ import {
     addUserToLocalStorage,
     getUserFromLocalStorage,
     removeUserFromLocalStorage,
-} from '../../utils/localStorage'
+} from '../../utils/localStorage.'
+import { registerUserThunk, loginUserThunk, updateUserThunk } from './userThunk'
 
 const initialState = {
     isLoading: false,

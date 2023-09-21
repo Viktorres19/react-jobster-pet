@@ -9,6 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        {/* <Route path='/' element={<Dashboard />} /> */}
         <Route path='/' element={
           <ProtectedRoute>
             <SharedLayout />
